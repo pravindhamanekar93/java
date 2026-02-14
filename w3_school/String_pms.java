@@ -36,6 +36,8 @@ public class String_pms {
         // concat
         System.out.println(a.concat(b));
 
+        // reverse a string
+
         // regex
         // replaceAll()
         String c1 = "Java123";

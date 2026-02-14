@@ -1,0 +1,607 @@
+🔥 50 Tough Java MCQs (Basics Master Level)
+1. What is output?
+System.out.println(10 + 20 + "Java");
+
+
+Answer: 30Java
+
+2.
+System.out.println("Java" + 10 + 20);
+
+
+Answer: Java1020
+
+3.
+int a = 5;
+System.out.println(a++ + ++a);
+
+
+Answer: 12
+
+4.
+int a = 3;
+System.out.println(++a + a++);
+
+
+Answer: 8
+
+5.
+byte b = 127;
+b++;
+System.out.println(b);
+
+
+Answer: -128
+
+6.
+System.out.println(5 / 2);
+
+
+Answer: 2
+
+7.
+System.out.println(5 / 2.0);
+
+
+Answer: 2.5
+
+8.
+char ch = 'A';
+System.out.println(ch + 1);
+
+
+Answer: 66
+
+9.
+System.out.println('A' + 'B');
+
+
+Answer: 131
+
+10.
+System.out.println(true + "");
+
+
+Answer: true
+
+11.
+int a = 10;
+if(a = 20)
+    System.out.println("Yes");
+
+
+Answer: Compilation Error
+
+12.
+int a = 10;
+if(a == 10);
+System.out.println("Hello");
+
+
+Answer: Hello
+
+13.
+for(int i=0; i<3; i++);
+System.out.println("Java");
+
+
+Answer: Java
+
+14.
+int x = 0;
+while(x++ < 3);
+System.out.println(x);
+
+
+Answer: 4
+
+15.
+System.out.println(10 % 3);
+
+
+Answer: 1
+
+16.
+System.out.println(-10 % 3);
+
+
+Answer: -1
+
+17.
+System.out.println(10 > 5 ? 1 : 2);
+
+
+Answer: 1
+
+18.
+System.out.println(10 > 5 ? 10 > 20 ? 1 : 2 : 3);
+
+
+Answer: 2
+
+19.
+String s = "Java";
+System.out.println(s == "Java");
+
+
+Answer: true
+
+20.
+String s1 = new String("Java");
+String s2 = "Java";
+System.out.println(s1 == s2);
+
+
+Answer: false
+
+21.
+System.out.println(1 + 2 * 3);
+
+
+Answer: 7
+
+22.
+System.out.println((1 + 2) * 3);
+
+
+Answer: 9
+
+23.
+int a = 5;
+System.out.println(a += 3);
+
+
+Answer: 8
+
+24.
+int a = 5;
+System.out.println(a *= 2 + 3);
+
+
+Answer: 25
+
+25.
+System.out.println(10 << 2);
+
+
+Answer: 40
+
+26.
+System.out.println(10 >> 1);
+
+
+Answer: 5
+
+27.
+System.out.println(10 & 4);
+
+
+Answer: 0
+
+28.
+System.out.println(10 | 4);
+
+
+Answer: 14
+
+29.
+System.out.println(10 ^ 4);
+
+
+Answer: 14
+
+30.
+System.out.println(~5);
+
+
+Answer: -6
+
+31.
+String s = "Java";
+s.concat("X");
+System.out.println(s);
+
+
+Answer: Java
+
+32.
+String s = "Java";
+System.out.println(s.charAt(4));
+
+
+Answer: StringIndexOutOfBoundsException
+
+33.
+System.out.println("Java".substring(1,3));
+
+
+Answer: av
+
+34.
+System.out.println("Java".indexOf('a'));
+
+
+Answer: 1
+
+35.
+System.out.println("Java".lastIndexOf('a'));
+
+
+Answer: 3
+
+36.
+System.out.println("  Java  ".trim().length());
+
+
+Answer: 4
+
+37.
+System.out.println("Java".compareTo("Java"));
+
+
+Answer: 0
+
+38.
+System.out.println("abc".matches("[a-z]+"));
+
+
+Answer: true
+
+39.
+int a = 10;
+switch(a) {
+    case 10:
+        System.out.println("A");
+    case 20:
+        System.out.println("B");
+}
+
+
+Answer:
+A
+B
+
+40.
+int a = 10;
+switch(a) {
+    case 10:
+        break;
+    default:
+        System.out.println("X");
+}
+
+
+Answer: No Output
+
+41.
+System.out.println(0.1 + 0.2);
+
+
+Answer: 0.30000000000000004
+
+42.
+double d = 10;
+System.out.println(d);
+
+
+Answer: 10.0
+
+43.
+System.out.println((int)10.9);
+
+
+Answer: 10
+
+44.
+System.out.println((double)5/2);
+
+
+Answer: 2.5
+
+45.
+System.out.println((int)(5/2.0));
+
+
+Answer: 2
+
+46.
+int a = 1;
+a = a++ + ++a;
+System.out.println(a);
+
+
+Answer: 4
+
+47.
+boolean b = false;
+if(b = true)
+    System.out.println("Yes");
+
+
+Answer: Yes
+
+48.
+int x = 5;
+System.out.println(x > 2 && x++ < 10);
+System.out.println(x);
+
+
+Answer:
+true
+6
+
+49.
+int x = 5;
+System.out.println(x > 10 && x++ < 10);
+System.out.println(x);
+
+
+Answer:
+false
+5
+
+50.
+System.out.println(null + "Java");
+
+
+Answer: nullJava
+
+🔥 If you can solve 40+ correctly without seeing answers → You are above 90% students.
+
+If you want next:
+
+50 Array MCQs
+
+50 String Output Questions
+
+30 Loop Brain-Twister
+
+Placement Level MCQ Set
+
+Tell me 😎
+
+3,4,11,13,14,20,25,26,27,28,29,30,31,37 can you explain this questions
+
+Excellent Pravin 👏🔥
+You selected the most dangerous tricky ones 😎
+Let’s break them clearly one by one.
+
+✅ Q3
+int a = 5;
+System.out.println(a++ + ++a);
+
+
+Step-by-step:
+
+a++ → use 5, then a becomes 6
+
+++a → first increase (6 → 7), then use 7
+
+So:
+
+5 + 7 = 12
+
+
+Final a = 7
+
+Answer: 12
+
+✅ Q4
+int a = 3;
+System.out.println(++a + a++);
+
+
+Step-by-step:
+
+++a → 4
+
+a++ → use 4, then becomes 5
+
+So:
+
+4 + 4 = 8
+
+
+Final a = 5
+
+Answer: 8
+
+✅ Q11
+int a = 10;
+if(a = 20)
+    System.out.println("Yes");
+
+
+❌ Error because:
+
+a = 20 is assignment
+But if() needs boolean
+
+Compilation Error
+
+✅ Q13
+for(int i=0; i<3; i++);
+System.out.println("Java");
+
+
+⚠️ Important: There is a semicolon after for loop.
+
+Loop runs empty 3 times.
+
+Then:
+
+System.out.println("Java");
+
+
+Runs once.
+
+Answer: Java
+
+✅ Q14
+int x = 0;
+while(x++ < 3);
+System.out.println(x);
+
+
+Loop with semicolon.
+
+Check step-by-step:
+
+x=0 → 0<3 true → x becomes 1
+x=1 → 1<3 true → x=2
+x=2 → 2<3 true → x=3
+x=3 → 3<3 false → x becomes 4
+
+Print x → 4
+
+Answer: 4
+
+✅ Q20
+String s1 = new String("Java");
+String s2 = "Java";
+System.out.println(s1 == s2);
+
+
+== compares reference (memory)
+
+s1 → Heap
+
+s2 → String pool
+
+Different memory.
+
+Answer: false
+
+✅ Q25
+System.out.println(10 << 2);
+
+
+Left shift:
+
+10 in binary = 1010
+Shift left 2 times → 101000
+
+= 40
+
+Answer: 40
+
+✅ Q26
+System.out.println(10 >> 1);
+
+
+Right shift:
+
+1010 >> 1 → 0101
+
+= 5
+
+Answer: 5
+
+✅ Q27
+System.out.println(10 & 4);
+
+
+Binary:
+
+10 = 1010
+4 = 0100
+
+AND → 0000
+
+= 0
+
+Answer: 0
+
+✅ Q28
+System.out.println(10 | 4);
+
+
+OR operation:
+
+1010
+0100
+
+1110
+
+= 14
+
+Answer: 14
+
+✅ Q29
+System.out.println(10 ^ 4);
+
+
+XOR (different bits = 1)
+
+1010
+0100
+
+1110
+
+= 14
+
+Answer: 14
+
+✅ Q30
+System.out.println(~5);
+
+
+~ means bitwise NOT.
+
+Formula:
+
+~n = -(n+1)
+
+
+So:
+
+~5 = -(5+1) = -6
+
+
+Answer: -6
+
+✅ Q31
+String s = "Java";
+s.concat("X");
+System.out.println(s);
+
+
+String is immutable.
+
+concat creates new string but not assigned.
+
+So s still = "Java"
+
+Answer: Java
+
+✅ Q37
+System.out.println("Java".compareTo("Java"));
+
+
+compareTo returns:
+
+0 → if equal
+Negative → if smaller
+Positive → if greater
+
+Same string → 0
+
+Answer: 0
+
+🔥 Summary of Concepts Used
+
+Pre & Post Increment
+
+Semicolon after loops
+
+String immutability
+
+== vs equals
+
+Bitwise operators
+
+Shift operators
+
+compareTo
+
+Assignment inside if
