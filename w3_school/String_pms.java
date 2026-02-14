@@ -38,47 +38,41 @@ public class String_pms {
 
         // regex
         // replaceAll()
-        String c1 ="Java123";
-        System.out.println(s.replaceAll("[0-9]","" a));
+        String c1 = "Java123";
+        System.out.println(s.replaceAll("[0-9]", ""));
 
         // trim removes the spaces from start and end
-        String sn ="  Java  ";
+        String sn = "  Java  ";
         System.out.println(sn.trim());
 
         // split splits the string into array of strings
         String s2 = "Java is programming languages";
-        String [] arr = s.split(" ");
-        for(String x : arr)
-        {
+        String[] arr = s.split(" ");
+        for (String x : arr) {
             System.out.println(x);
 
         }
 
-        // indexOf 
+        // indexOf
         System.out.println(s.indent('a'));
 
         // lastIndexOf
         System.out.println(s.lastIndexOf('a', 0));
 
-        // isEmpty 
+        // isEmpty
         String emp = " ";
         System.out.println(emp.isEmpty());
 
         // toCharArray()
         String snn = "Pravin";
-        char [] c = snn.toCharArray();
-        for ( char ch : c)
-        {
+        char[] c = snn.toCharArray();
+        for (char ch : c) {
             System.out.println(ch);
         }
-        
 
-        // matches 
+        // matches
         String match = "Java";
         System.out.println(match.matches("[a-z0-9]"));
-
-
-
 
     }
 
